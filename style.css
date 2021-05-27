@@ -1,0 +1,49 @@
+body {
+    background-image: url('https://www.xmple.com/wallpaper/purple-blue-gradient-linear-1920x1080-c2-9400d3-00ffff-a-195-f-14.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+h1{
+color:black;
+font-size: 50px;
+font-weight: 500;
+font-family:Impact;
+}
+p{
+color: white;
+font-size: 25px;
+font-weight: 200;
+font-family: Verdana;
+}
+img{
+border: solid;
+border-radius: 50px;
+padding: 10px;
+background-color: chartreuse;
+}
+*{
+text-align: center;
+/* border: solid; */
+}
+
+.header{
+    display:flex;
+    justify-content: space-around;
+    border: solid;
+    background-color: yellow;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu{
+    margin-top: 50px;
+}
+
+.items p{
+    color: yellow;
+}
